@@ -1,0 +1,39 @@
+body {
+    background-image: url('wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    color: crimson;
+    font-size: 50px;
+    background-color: rgb(140, 240, 232);
+    width: 400px;
+}
+
+h3 {
+    color: brown font-size 50px;
+    background-color: beige;
+    width: 400px;
+}
+
+.topdiv {
+    background-color: bisque;
+    width: 400px;
+    height: 200px;
+    border: 8px solid maroon;
+}
+
+.middlediv {
+    background-color: skyblue;
+    width: 400px;
+    height: 200px;
+    border: 8px solid blue;
+}
+
+.bottomdiv {
+    background-color: coral;
+    width: 400px;
+    height: 200px;
+    border: 8px solid green;
+}

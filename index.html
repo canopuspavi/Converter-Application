@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERSIONS</title>
+    <link rel="icon" href="symbol.JPG" type="pa/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>🚀<i>Converter App</i></h1>
+        <h3>➣ Celsius to Fahrenheit</h3>
+        <img src="c to f.JPG" width="400" height="300">
+        <form>
+            <div class="topdiv">
+                <label for="celsius"><strong>❀ <i>Celsius</i></strong></label>
+                <p><input type="number" id="C" autofocus placeholder="Enter the value in Celsius" required>℃</p>
+                <br>
+                <label for="Fahrenheit"><strong>❀ <i>Fahrenheit</i></strong></label>
+                <p><input type="number" readonly id="result1">℉</p>
+                <br>
+                <br>
+            </div>
+            <br>
+            <br>
+            <br>
+            <h3>⚖️ Kilograms to Pounds</h3>
+            <img src="kg to p.JPG" width="400" height="300">
+            <div class="middlediv">
+                <label for="kilograms"><strong>✿ <i>Kilograms</i></strong></label>
+                <p><input type="number" id="K" autofocus placeholder="Enter the value in kilograms" required>kg</p>
+                <br>
+                <label for="Pounds"><strong>✿ <i>Pounds</i></strong></label>
+                <p><input type="number" readonly id="result2">lbs</p>
+                <br>
+                <br>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3>➢ Feet to Centimeters</h3>
+            <img src="ft to cm.JPG" width="400" height="300">
+            <div class="bottomdiv">
+                <label for="Feet"><strong>❃ <i>Feet</i></strong></label>
+                <p><input type="number" id="F" autofocus placeholder="Enter the value in Feet" required>ft</p>
+                <br>
+                <label for="Centimeters"><strong>❃ <i>Centimeters</i></strong></label>
+                <p> <input type="number" readonly id="result3">cm</p>
+                <br>
+                <br>
+            </div>
+            <br>
+            <br>
+            <br>
+           <p> <input type="button" value="Convert"
+                onclick="converter (document.getElementById('C').value,document.getElementById('K').value,document.getElementById('F').value)">
+        
+            <input type="reset" value="Reset"></p>
+            <br>
+            <br>
+        </form>
+    </center>
+    <hr size="3" color="pink">
+    <strong> <em>&copy;Copyright 2023, Pavithra Baskar</em></strong>
+    <script src="logic.js">
+    </script>
+</body>
+
+</html>
